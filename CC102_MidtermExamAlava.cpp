@@ -33,7 +33,7 @@ int main() {
 	milkCostPhp = (milkPriceUSD * usdToPhp) * milkQTy;
 	totalCostPhp = sugarCostPhp + riceCostPhp + sardinesCostPhp + coffeeCostPhp + milkCostPhp;
 	cout << "=====================================================================\n";
-	cout << "The total cost in PHP: " << totalCostPhp << "php" << endl;
+	cout << "The total cost in PHP: " << totalCostPhp << " PHP" << endl;
 	cout << "=====================================================================\n";
 	return 0;
 }
