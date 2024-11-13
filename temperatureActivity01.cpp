@@ -6,9 +6,11 @@ int main() {
 	cin >> temperature;
 	if(temperature<32){
 		cout << "Bring heavy Jacket.. ";
-	}else if(temperature<=32&&50){
+	}
+	else if(temperature<=32&&50){
 		cout << "Bring Light Jacket.. ";
-	}else{
+	}
+	else{
 		cout<<"No jacket Needed.. ";
 	} 
 	return 0;
