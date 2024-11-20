@@ -4,9 +4,12 @@ using namespace std;
 int main() {
     double balance, interestRate = 0.0;
     string accountType, accountLevel;
-    cout << "Enter your bank account balance: $"; cin >> balance;
-    cout << "Enter your account type (Personal or Business): "; cin >> accountType;
-    cout << "Enter your account level (Standard, Gold, or Platinum): "; cin >> accountLevel;
+    cout << "Enter your bank account balance: $"; 
+    cin >> balance;
+    cout << "Enter your account type (Personal or Business): "; 
+    cin >> accountType;
+    cout << "Enter your account level (Standard, Gold, or Platinum): "; 
+    cin >> accountLevel;
     interestRate = (accountType == "Personal" && accountLevel == "Standard" && balance >= 0) ? 1.2 :
                    (accountType == "Personal" && accountLevel == "Gold" && balance >= 1000) ? 1.9 :
                    (accountType == "Personal" && accountLevel == "Gold" && balance >= 5000) ? 2.3 :
